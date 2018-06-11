@@ -1,0 +1,36 @@
+{
+  "name": "user-mgmt-react",
+  "version": "1.0.0",
+  "description": "User Management System",
+  "scripts": {
+    "dev": "webpack -d --display-error-details",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snnaik/user-mgmt-react.git"
+  },
+  "author": "SN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snnaik/user-mgmt-react/issues"
+  },
+  "homepage": "https://github.com/snnaik/user-mgmt-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "file-loader": "^1.1.5"
+  }
+}
